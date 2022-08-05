@@ -1,0 +1,96 @@
+@media screen and (max-width: 1200px){
+	.withdraw-request{
+		display: flex;
+	}
+	.moneybox-container:hover{
+		height: 215px;
+	}
+	.form-input-wrapper > *{
+		width: 100%;
+	}
+	.form-input-wrapper{
+		display: flex;
+	}
+	.moneybox-container{
+		font-size: 15px;
+	}
+	.overlay{
+		font-size: 14px;
+	}
+	.full-info{
+		padding:20px 0px 0px 8px;
+	}
+	.maininfo{
+		padding-top: 5px;
+	}
+	.admin-table{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 991px){
+	#user-registration .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link a, #user-registration.horizontal .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link a{
+		font-size: 20px;
+		padding: 15px 0px;
+	}
+	.slider__item{
+		flex:0 0 50%;
+		max-width: 50%;
+	}
+	.moneybox-container:hover{
+		flex:0 0 55%;
+		max-width: 55%;
+	}
+	#referal_span > a{
+		display: block;
+	}
+	#moneybox_selector{
+		width: 100%;
+	}
+	.form-input-wrapper{
+		flex-direction: column;
+	}
+	.maininfo{
+		padding-top: 0px;
+	}
+	.overlay{
+		font-size: 16px;
+	}
+	.full-info{
+		padding-top: 30px;
+	}
+	.admin-table{
+		font-size: 16px;	
+	}
+}
+@media screen and (max-width: 768px){
+	#user-registration .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link a, #user-registration.horizontal .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link a{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.admin-table{
+		padding: 0px;	
+	}
+	.admin-table td{
+		padding: 0px;
+	}
+	.withdraw-request{
+		flex-wrap: wrap;
+	}
+	.withdraw-request input, .withdraw-request button{
+		flex: 0 0 50%;
+	}
+	#moneybox-selector{
+		flex: 0 0 100%;
+	}
+}
+@media screen and (max-width: 600px){
+	#user-registration .user-registration-MyAccount-navigation ul, #user-registration.horizontal .user-registration-MyAccount-navigation ul{
+		display: flex;
+	}
+	.insurance-request{
+		flex-direction: column;
+	}
+	.admin-table{
+		font-size: 12px;
+	}
+}
